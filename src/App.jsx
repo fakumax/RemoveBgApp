@@ -4,11 +4,7 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <div className='App'>
-      <p>test</p>
-    </div>
-  );
+  return <h1 className='text-3xl font-bold text-blue-600	'>Hello world!</h1>;
 }
 
 export default App;
